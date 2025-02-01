@@ -1,0 +1,44 @@
+body{
+    margin: 20px;
+}
+
+/* 
+header{
+    max-width: 100%;
+} */
+
+ul{
+    
+    background-color: white;
+    color: black;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+
+.about{
+    padding-left: 170px;
+    margin: 40px;
+    display: block;
+    width: 600px;
+    justify-content: space-between;
+}
+
+/* img{
+    width: 500px;
+} */
+
+
+
+.text-about{
+    margin-bottom: 30px;
+}
+
+.grey-text{
+    color: grey;
+}
+
+
+@media (max-width: 800px) 

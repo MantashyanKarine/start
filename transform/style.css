@@ -1,0 +1,33 @@
+/* div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transform: translateX(200px) translateY(200px);
+    transform-origin: top left;
+    transition: transform 1s;
+   
+}
+
+
+
+div:hover {
+    transform: translateX(200px) translateY(200px) rotate(360deg);
+    
+} */
+
+
+
+p{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    transform:  translateY(200px);
+    transition: all 1s;
+}
+
+p:hover{
+    transform: translateY(200px) translateX(200px) rotate(360deg);
+   background-color: brown;
+}
